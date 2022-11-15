@@ -1,0 +1,43 @@
+body {
+  background-color: blue;
+}
+
+#principal h1 {
+  background-color: violet;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.rectangulo {
+  background-color: brown;
+  margin: 35px;
+  width: 100%;
+  overflow-x: auto;
+}
+.rectangulo h1 {
+  font-size: 2em;
+  justify-content: space-evenly;
+  display: flex;
+  display: row;
+}
+.rectangulo p:hover {
+  color: yellow;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: yellow;
+  padding: 2em;
+  margin: 2em;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
